@@ -17,7 +17,7 @@ function OrderSummary({ amount, totalPrice, onSubmit }: Props) {
                     PEDIDOS SELECIONADOS
                     </span>
                     <span className="order-summary-toal">
-                        <strong className="amount-selected">R$ {formatPrice(totalPrice)}</strong>
+                        <strong className="amount-selected">{formatPrice(totalPrice)}</strong>
                     VALOR TOTAL
                     </span>
                 </div>
